@@ -1,0 +1,480 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Resources | Resource Loop</title>
+
+<link rel="stylesheet" href="{% static 'css/resources.css' %}">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<header>
+
+<div class="logo">
+🎓 Resource<span>Loop</span>
+</div>
+
+
+<nav>
+
+<a href="{% url 'home' %}">
+Home
+</a>
+
+<a class="active">
+Resources
+</a>
+
+<a>
+Requests
+</a>
+
+<a>
+About
+</a>
+
+</nav>
+
+
+<input class="top-search" placeholder="Search...">
+
+
+</header>
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+
+
+<div>
+
+
+<p class="tag">
+— FIND • SHARE • LEARN
+</p>
+
+
+<h1>
+All <span>Resources</span>
+</h1>
+
+
+<p>
+Search, filter and discover books, notes,
+equipment and more shared by your fellow students.
+</p>
+
+
+</div>
+
+
+
+<div class="quote">
+
+Knowledge<br>
+Shared<br>
+Goes Further
+
+<div></div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- SEARCH -->
+
+
+<div class="search-box">
+
+
+<input placeholder="Search resources by title, course, keyword...">
+
+
+<button>
+Search
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- FILTER -->
+
+
+<div class="filters">
+
+
+<div>
+Category
+<br>
+<b>All Categories⌄</b>
+</div>
+
+
+<div>
+Course
+<br>
+<b>All Courses⌄</b>
+</div>
+
+
+
+<div>
+Availability
+<br>
+<b>All⌄</b>
+</div>
+
+
+
+<div>
+Sort By
+<br>
+<b>Newest First⌄</b>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<h3 class="count">
+Showing 24 resources
+</h3>
+
+
+
+
+
+
+
+
+<!-- CARDS -->
+
+
+<section class="cards">
+
+
+
+
+
+<div class="card">
+
+
+<div class="badge book">
+Book
+</div>
+
+
+<div class="heart">
+♡
+</div>
+
+
+<img src="{% static 'images/book.jpg' %}">
+
+
+
+<h3>
+Data Structures and Algorithms
+</h3>
+
+
+<p>
+📖 CSE 201
+</p>
+
+
+<p>
+👤 By Ahmed Rahman
+</p>
+
+
+<p>
+◉ Good Condition
+</p>
+
+
+<p>
+🟢 Available
+</p>
+
+
+
+<button>
+View Details
+</button>
+
+
+<button class="request">
+Request
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<div class="badge notes">
+Notes
+</div>
+
+
+<div class="heart">
+♡
+</div>
+
+
+<img src="{% static 'images/notes.jpg' %}">
+
+
+
+<h3>
+CSE 301 Complete Notes
+</h3>
+
+
+<p>
+📖 CSE 301
+</p>
+
+
+<p>
+👤 By Tahsin Khan
+</p>
+
+
+<p>
+◉ PDF File
+</p>
+
+
+<p>
+🟢 Available
+</p>
+
+
+<button>
+View Details
+</button>
+
+
+<button class="request">
+Request
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<div class="badge equipment">
+Equipment
+</div>
+
+
+<div class="heart">
+♡
+</div>
+
+
+<img src="{% static 'images/arduino.jpg' %}">
+
+
+
+<h3>
+Arduino Uno
+</h3>
+
+
+<p>
+⚙ Lab Component
+</p>
+
+
+<p>
+👤 By Nusrat Jahan
+</p>
+
+
+<p>
+◉ Good Condition
+</p>
+
+
+<p>
+🟢 Available
+</p>
+
+
+<button>
+View Details
+</button>
+
+
+<button class="request">
+Request
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- PAGINATION -->
+
+
+<div class="pagination">
+
+<button>
+‹
+</button>
+
+
+<button class="active-page">
+1
+</button>
+
+
+<button>
+2
+</button>
+
+
+<button>
+3
+</button>
+
+
+<button>
+...
+</button>
+
+
+<button>
+8
+</button>
+
+
+<button>
+›
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<div>
+
+<h3>
+🎓 Resource<span>Loop</span>
+</h3>
+
+<p>
+Share | Borrow | Learn Together
+</p>
+
+</div>
+
+
+
+<div>
+
+Home &nbsp;
+Resources &nbsp;
+Requests &nbsp;
+About
+
+</div>
+
+
+
+<div>
+
+◉ ◉ ◉ ◉
+
+</div>
+
+
+
+</footer>
+
+
+
+</body>
+
+</html>
